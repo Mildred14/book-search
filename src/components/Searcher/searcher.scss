@@ -1,0 +1,32 @@
+.search-input {
+  width: 600px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background: rgba(157, 157, 157, 0.5);
+  padding-left: 20px;
+  font-size: 16px;
+  box-sizing: border-box;
+  &:focus {
+    outline: none;
+  }
+}
+
+.search-btn {
+  transform: translate(-55px, 7px);
+  height: 40px;
+  border-radius: 0 20px 20px 0;
+  border: none;
+  background-color: orange;
+  cursor: pointer;
+  width: 55px;
+
+  & > img {
+    height: 28px;
+  };
+}
+
+.search-form {
+  text-align: end;
+  margin-bottom: 40px;
+}
